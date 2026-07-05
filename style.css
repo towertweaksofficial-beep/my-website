@@ -1,4 +1,15 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #111;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
 .nav {
+  position: sticky;
+  top: 0;
   background: black;
   padding: 15px;
   display: flex;
@@ -6,6 +17,7 @@
   align-items: center;
 }
 
+/* LINKS */
 .links a {
   color: white;
   margin-left: 15px;
@@ -14,4 +26,31 @@
 
 .links a:hover {
   color: lightblue;
+}
+
+/* HERO */
+.hero {
+  padding: 120px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  color: lightblue;
+}
+
+/* SECTIONS */
+.section {
+  padding: 80px 20px;
+  border-top: 1px solid #333;
+}
+
+/* BUTTON */
+button {
+  padding: 10px 20px;
+  border: none;
+  background: blue;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
 }
