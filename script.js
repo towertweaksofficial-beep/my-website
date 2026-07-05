@@ -1,3 +1,3 @@
 function sayHello() {
-  alert("It works!");
+  alert("Website is working!");
 }
