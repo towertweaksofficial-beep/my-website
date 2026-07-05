@@ -1,56 +1,38 @@
-body {
-  font-family: Arial;
-  margin: 0;
-  background: #111;
-  color: white;
-  scroll-behavior: smooth;
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-/* NAVBAR */
-.nav {
-  position: sticky;
-  top: 0;
-  background: black;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+<body id="home">
 
-/* LINKS */
-.links a {
-  color: white;
-  margin-left: 15px;
-  text-decoration: none;
-}
+  <div class="nav">
+    <h2>My Site</h2>
 
-.links a:hover {
-  color: lightblue;
-}
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
 
-/* HERO */
-.hero {
-  padding: 120px 20px;
-  text-align: center;
-}
+  <div class="hero">
+    <h1>Welcome</h1>
+    <p>This is my upgraded website</p>
+    <button onclick="sayHello()">Click Me</button>
+  </div>
 
-h1 {
-  font-size: 50px;
-  color: lightblue;
-}
+  <div class="section" id="about">
+    <h2>About</h2>
+    <p>This is where your info goes.</p>
+  </div>
 
-/* SECTIONS */
-.section {
-  padding: 80px 20px;
-  border-top: 1px solid #333;
-}
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Email: example@email.com</p>
+  </div>
 
-/* BUTTON */
-button {
-  padding: 10px 20px;
-  border: none;
-  background: blue;
-  color: white;
-  border-radius: 8px;
-  cursor: pointer;
-}
+  <script src="script.js"></script>
+</body>
+</html>
