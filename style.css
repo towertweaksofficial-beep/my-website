@@ -1,39 +1,17 @@
-body {
-  font-family: Arial;
-  margin: 0;
-  background: #111;
-  color: white;
-  text-align: center;
-}
-
-/* NAV */
 .nav {
   background: black;
   padding: 15px;
-  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* HERO */
-.hero {
-  padding: 80px 20px;
-}
-
-h1 {
-  font-size: 50px;
-  color: lightblue;
-}
-
-/* SECTIONS */
-.section {
-  padding: 60px 20px;
-  border-top: 1px solid #333;
-}
-
-button {
-  padding: 10px 20px;
-  border: none;
-  background: blue;
+.links a {
   color: white;
-  border-radius: 8px;
-  cursor: pointer;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: lightblue;
 }
