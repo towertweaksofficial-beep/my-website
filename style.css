@@ -21,7 +21,6 @@ body {
   color: white;
   margin-left: 15px;
   text-decoration: none;
-  transition: 0.3s;
 }
 
 .links a:hover {
@@ -32,7 +31,6 @@ body {
 .hero {
   padding: 120px 20px;
   text-align: center;
-  animation: fadeIn 1s ease-in;
 }
 
 h1 {
@@ -44,7 +42,30 @@ h1 {
 .section {
   padding: 80px 20px;
   border-top: 1px solid #333;
-  animation: fadeIn 1s ease-in;
+  text-align: center;
+}
+
+/* GRID */
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* CARDS */
+.card {
+  background: #222;
+  padding: 20px;
+  width: 150px;
+  border-radius: 10px;
+  border: 1px solid #333;
+}
+
+.highlight {
+  border: 2px solid lightblue;
+  transform: scale(1.05);
 }
 
 /* BUTTON */
@@ -55,21 +76,4 @@ button {
   color: white;
   border-radius: 8px;
   cursor: pointer;
-  transition: 0.3s;
-}
-
-button:hover {
-  transform: scale(1.1);
-}
-
-/* ANIMATION */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
