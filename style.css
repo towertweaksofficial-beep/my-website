@@ -6,7 +6,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* NAV */
 .nav {
   position: sticky;
   top: 0;
@@ -14,7 +13,6 @@ body {
   padding: 15px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .links a {
@@ -27,7 +25,6 @@ body {
   color: lightblue;
 }
 
-/* HERO */
 .hero {
   padding: 120px 20px;
   text-align: center;
@@ -38,23 +35,19 @@ h1 {
   color: lightblue;
 }
 
-/* SECTIONS */
 .section {
   padding: 80px 20px;
-  border-top: 1px solid #333;
   text-align: center;
+  border-top: 1px solid #333;
 }
 
-/* GRID */
 .grid {
   display: flex;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-  margin-top: 20px;
 }
 
-/* CARDS */
 .card {
   background: #222;
   padding: 20px;
@@ -68,7 +61,6 @@ h1 {
   transform: scale(1.05);
 }
 
-/* BUTTON */
 button {
   padding: 10px 20px;
   border: none;
